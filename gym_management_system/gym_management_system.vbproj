@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C64F810-649E-47C1-A72E-C7C8BE1036F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>gym_management_system.My.MyApplication</StartupObject>
+    <RootNamespace>gym_management_system</RootNamespace>
+    <AssemblyName>gym_management_system</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>gym_management_system.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>gym_management_system.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCustomerform.Designer.vb">
+      <DependentUpon>AddCustomerform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomerform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTrainerform.Designer.vb">
+      <DependentUpon>AddTrainerform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddTrainerform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_Password.Designer.vb">
+      <DependentUpon>Change_Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Change_Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_ Report.Designer.vb">
+      <DependentUpon>Customer_ Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_ Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cust_Report_DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cust_Report_DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gym_db1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gym_db1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Page.Designer.vb">
+      <DependentUpon>Home_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loadingform.Designer.vb">
+      <DependentUpon>Loadingform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loadingform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Tner_Report_DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tner_Report_DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tner_Report_DataSet2.vb">
+      <DependentUpon>Tner_Report_DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_Report.Designer.vb">
+      <DependentUpon>Trainer_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_Salary_dtl.Designer.vb">
+      <DependentUpon>Trainer_Salary_dtl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_Salary_dtl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Fees.Designer.vb">
+      <DependentUpon>Update_Fees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Fees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workout.Designer.vb">
+      <DependentUpon>Workout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddCustomerform.resx">
+      <DependentUpon>AddCustomerform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTrainerform.resx">
+      <DependentUpon>AddTrainerform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_Password.resx">
+      <DependentUpon>Change_Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_ Report.resx">
+      <DependentUpon>Customer_ Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Page.resx">
+      <DependentUpon>Home_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loadingform.resx">
+      <DependentUpon>Loadingform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Trainer_Report.resx">
+      <DependentUpon>Trainer_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_Salary_dtl.resx">
+      <DependentUpon>Trainer_Salary_dtl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Fees.resx">
+      <DependentUpon>Update_Fees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workout.resx">
+      <DependentUpon>Workout.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Cust_Report_DataSet1.xsc">
+      <DependentUpon>Cust_Report_DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Cust_Report_DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cust_Report_DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Cust_Report_DataSet1.xss">
+      <DependentUpon>Cust_Report_DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="gym_db1DataSet.xsc">
+      <DependentUpon>gym_db1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gym_db1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gym_db1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gym_db1DataSet.xss">
+      <DependentUpon>gym_db1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Tner_Report_DataSet2.xsc">
+      <DependentUpon>Tner_Report_DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Tner_Report_DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Tner_Report_DataSet2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Tner_Report_DataSet2.xss">
+      <DependentUpon>Tner_Report_DataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4V0b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img.jpg" />
+    <None Include="Resources\power-trainer.jpg" />
+    <None Include="Resources\home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fitness-center-page-60305a7f.jpg" />
+    <None Include="Resources\gym-24699087.jpg" />
+    <None Include="Resources\240_F_317724748_eNcpWptTATeRL6wzrC1zPWV810FXGQ5k.jpg" />
+    <None Include="Resources\home2.jpg" />
+    <None Include="Resources\home1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gym_db1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="gym_db1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>gym_db1.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
