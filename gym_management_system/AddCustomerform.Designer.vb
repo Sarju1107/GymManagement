@@ -210,7 +210,7 @@ Partial Class AddCustomerform
         Me.btnsave.ForeColor = System.Drawing.Color.Black
         Me.btnsave.Location = New System.Drawing.Point(963, 118)
         Me.btnsave.Name = "btnsave"
-        Me.btnsave.Size = New System.Drawing.Size(93, 33)
+        Me.btnsave.Size = New System.Drawing.Size(95, 30)
         Me.btnsave.TabIndex = 30
         Me.btnsave.Text = "SAVE"
         Me.btnsave.UseVisualStyleBackColor = False
@@ -222,7 +222,7 @@ Partial Class AddCustomerform
         Me.btndelete.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.btndelete.Location = New System.Drawing.Point(961, 182)
         Me.btndelete.Name = "btndelete"
-        Me.btndelete.Size = New System.Drawing.Size(95, 33)
+        Me.btndelete.Size = New System.Drawing.Size(95, 30)
         Me.btndelete.TabIndex = 31
         Me.btndelete.Text = "DELETE"
         Me.btndelete.UseVisualStyleBackColor = False
@@ -234,7 +234,7 @@ Partial Class AddCustomerform
         Me.btnupdate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.btnupdate.Location = New System.Drawing.Point(961, 242)
         Me.btnupdate.Name = "btnupdate"
-        Me.btnupdate.Size = New System.Drawing.Size(95, 33)
+        Me.btnupdate.Size = New System.Drawing.Size(95, 30)
         Me.btnupdate.TabIndex = 32
         Me.btnupdate.Text = "UPDATE"
         Me.btnupdate.UseVisualStyleBackColor = False
@@ -246,7 +246,7 @@ Partial Class AddCustomerform
         Me.btnclear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.btnclear.Location = New System.Drawing.Point(961, 304)
         Me.btnclear.Name = "btnclear"
-        Me.btnclear.Size = New System.Drawing.Size(95, 33)
+        Me.btnclear.Size = New System.Drawing.Size(95, 30)
         Me.btnclear.TabIndex = 33
         Me.btnclear.Text = "CLEAR"
         Me.btnclear.UseVisualStyleBackColor = False
